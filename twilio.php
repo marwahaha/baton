@@ -17,6 +17,8 @@ foreach ($messages as $message) {
 	echo $message->body;
 }
 ?>
+/*
 <Response>
     <Message>Hello,<?php echo $_REQUEST['From'] ?> Monkey</Message>
 </Response>
+*/
