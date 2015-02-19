@@ -5,7 +5,7 @@
  <body>
  <?php
  echo '<p>Hello World</p>';
-// require 'twilio-php/Services/Twilio.php';
+require 'twilio-php/Services/Twilio.php';
 ?>
  </body>
 </html>
