@@ -16,7 +16,8 @@ $messages = $client->account->messages->getIterator(0, 100, array(
 foreach ($messages as $message) {
 	echo $message->body;
 }
-?>
-<Response>
+
+/*<Response>
     <Message>Hello,<?php echo $_REQUEST['From'] ?> Monkey</Message>
-</Response>
+</Response>*/
+?>
