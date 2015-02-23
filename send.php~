@@ -1,9 +1,0 @@
-<?php
-    header("content-type: text/xml; charset=utf-8");
-    require('twilio-php/Services/Twilio.php'); 
-$account_sid = 'AC4894ad7af5054c7616f82046a03b96f0';
-$auth_token = '89603f54a28e114170b493410c1e7b40';
-$client = new Services_Twilio($account_sid, $auth_token);
-$client->account->messages->sendMessage("+15306014224",$_REQUEST["To"],$_REQUEST["Text"]);
-echo '<Response/>'
-?>
